@@ -48,7 +48,7 @@ const drawFood = () => {
     const { x, y, color } = food 
 
     ctx.shadowColor  = color
-    ctx.shadowBlur = 6
+    ctx.shadowBlur = 20
     ctx.fillStyle = food.color 
     ctx. fillRect(x, y, size, size)
     ctx.shadowBlur = 0 
